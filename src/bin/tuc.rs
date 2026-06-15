@@ -22,7 +22,7 @@ struct FastOpt {}
 impl<'a> TryFrom<&'a Opt> for FastOpt {
     type Error = &'static str;
 
-    fn try_from(_value: &'a Opt) -> Result<Self, Self::Error> {
+    fn try_from(_value: &'a Opt -> Result<Self, Self::Error> {
         Err("This binary was not compiled with the feature fast-lane")
     }
 }
