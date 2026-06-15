@@ -1,0 +1,3 @@
+# CI replay marker for syntax/cargo check
+feature_branch: replay-a0084da5
+workflow: .github/workflows/ci.yml
